@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+   <session-factory>
+   <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+   <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+   <property name="hibernate.connection.url">ec2-107-22-224-154.compute-1.amazonaws.com:5432/dci43624be8idu</property>
+   <property name="hibernate.connection.username">chajzvwnqlhugp</property>
+   <property name="hibernate.connection.password">4a1e47b41b994449122158ba6073782ac743446b968c3c74ea7e5ffd0eff537e</property>
+   <property name="hibernate.hbm2ddl.auto">create</property>
+   <property name="show_sql">false</property>
+   <property name="hibernate.enable_lazy_load_no_trans">true</property> 
+   <property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
+ <!--    <property name="current_session_context_class">thread</property>-->
+ 
+ <property name="hibernate.c3p0.min_size">5</property>
+  <property name="hibernate.c3p0.max_size">20</property>
+  <property name="hibernate.c3p0.timeout">300</property>
+  <property name="hibernate.c3p0.max_statements">50</property>
+  <property name="hibernate.c3p0.idle_test_period">3000</property>
+ 
+   <mapping class="com.saber.jee.model.Projet"/>
+   <mapping class="com.saber.jee.model.Tache"/>
+   <mapping class="com.saber.jee.model.Utilisateur"/>
+</session-factory>
+</hibernate-configuration>

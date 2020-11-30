@@ -1,0 +1,6 @@
+1577001402811	Rename type 'Statut'
+1577007560862	Rename type 'Dao'
+1577012642497	Delete element
+1577012712943	Extract interface 'IDao'
+1577012770168	Move compilation unit
+1577016297735	Delete element

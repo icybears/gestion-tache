@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\Me\DSJEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4255584822.index
+\devoirJEE\src
+C:\Users\Me\DSJEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4270649170.index
+\devoirJEE\src
