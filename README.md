@@ -2,7 +2,12 @@
 This is a project that I worked on for my Java Web Development class.
 The goal is to develop a java web application using JSP and Hibernate that allows managing projects, tasks and task-to-project assignments for employees.
 
-# Main Functionalities
+# Technical goals
+- Data Access layer with Hibernate ORM
+- MVC pattern
+- Ergonomic web pages
+
+# Main features
 
 The main functionalities to be developed are:
 - Basic Login/Logout (Security concerns are discarded)
